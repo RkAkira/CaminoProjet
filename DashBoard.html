@@ -27,7 +27,7 @@
             <div class="Button">
                 <p>Afficher l’élément 1</p>
                 <label class="switch" for="button-item1">
-                    <input type="checkbox" id="button-item1" name="button-item1">
+                    <input type="checkbox" id="button-item1" name="button-item1" onchange="update_data1()">
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -44,7 +44,7 @@
             <div class="Button">
                 <p>Afficher l’élément 3</p>
                 <label class="switch" for="button-item2">
-                    <input type="checkbox" id="button-item2" name="button-item2">
+                    <input type="checkbox" id="button-item2" name="button-item2" onchange="update_data2()">
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -61,7 +61,7 @@
             <div class="Button">
                 <p>Afficher l’élément 3</p>
                 <label class="switch" for="button-item3">
-                    <input type="checkbox" id="button-item3" name="button-item3">
+                    <input type="checkbox" id="button-item3" name="button-item3" onchange="update_data3()">
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -69,5 +69,6 @@
     </div>
 </div>
 </div>
+<script src="Dashboard.js"></script>
 </body>
 </html>
