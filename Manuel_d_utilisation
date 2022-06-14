@@ -1,0 +1,7 @@
+Je tiens à vous préciser que malheureusement du à l'ancienneté de php,
+le code n'a pas pu etre testé correctement.
+Néanmoins certains tests on pu etre réalisé au préalable pour réaliser les 4 fonctions
+implémenté.
+Les 3 premières fonctions sont lié au textInput et permettent de changer le contenu des 3 titres.
+La dernières fonctions est lié aux 3 sliders et permettent normalement lors du changement de phase de celui-ci
+de supprimer le texte.
